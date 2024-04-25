@@ -1,0 +1,30 @@
+python3 converter.py
+Options: sw 1 ba 0 cross 1
+Warning: Reducing junction cluster 1619555647,1619555660,3853955202 (parallel incoming -382201199#0,148896429#11).
+Warning: Reducing junction cluster 1619555687,1619555691,7938026806 (parallel outgoing -870619910,850941726).
+Warning: Not joining junctions 8108062340,8108062341,8142145766 (not compact (maxEdge=1105165358 length=5.86)).
+Warning: Found sharp turn with radius 7.55 at the start of edge '-851542437'.
+Warning: Found sharp turn with radius 7.55 at the end of edge '851542437'.
+Warning: The traffic light '1619555727' does not control any links; it will not be build.
+Warning: The traffic light '8108040533' does not control any links; it will not be build.
+Warning: Intersecting left turns at junction 'cluster_1619555736_3792971804_6008768794_6017670281' from lane '851545124_1' and lane '638612496_1' (increase junction radius to avoid this).
+Warning: Intersecting left turns at junction 'cluster_3805317637_3805317638' from lane '377156003_1' and lane '-851553919_1' (increase junction radius to avoid this).
+Warning: Uneven stop line at lane '-148896429#11_1' (dist=0.00) cannot be represented in OpenDRIVE.
+Warning: Uneven stop line at lane '874658598_1' (dist=0.39) cannot be represented in OpenDRIVE.
+
+ChatGPT
+このエラーメッセージの内容は、交通シミュレーションや道路ネットワークの変換プロセス中に警告が発生したことを示しています。それぞれの警告は異なる問題を指摘しており、交差点の構成、車線の接続、交通信号の設定など、ネットワーク設計の様々な側面に関連しています。以下に主な警告の内容を詳しく説明します：
+
+交差点クラスターの縮小: 一部の交差点において、平行して入ってくる道路が原因で、交差点のクラスターが縮小されました。この問題は、交通の流れを最適化するために行われることがあります。
+交差点での車線の合流不可: 特定の交差点で車線が合流されなかったことが警告されています。これは、交差点の設計がコンパクトではないため（例えば、エッジが長すぎるなど）、発生します。
+鋭角のターン: 特定のエッジで非常に鋭角のターンが見つかり、これが交通の流れに影響を与える可能性があるため警告されています。
+無効な交通信号: 交通信号がどの車線にも影響を与えていないため、建設されないと警告されています。これは、信号が不要または誤設定されていることを意味します。
+交差点での左折の交差: 交差点で左折車線が交差している場合、交差点の半径を増やすことでこれを避けることが推奨されています。
+不均一な停止線: 停止線が不均一で、OpenDRIVE形式で表現できないと警告されています。これは、道路のデジタル表現において精度を欠く可能性があります。
+これらの警告は、交通シミュレーションソフトウェアや道路デザインソフトウェアを使ってネットワークを設計または変換する際に、技術的な課題や最適化の必要性を指摘しています。これらの問題を解決することで、より現実に近いシミュレーション結果や効率的な交通流の管理が期待できます。
+
+
+
+
+
+
