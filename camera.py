@@ -75,7 +75,7 @@ fov = camera_bp.get_attribute("fov").as_float()
 # Calculate the camera projection matrix to project from 3D -> 2D
 K = build_projection_matrix(image_w, image_h, fov)
 
-# actor.get_world_vertices(actor.get_transform())
+actor.get_world_vertices(actor.get_transform())
 
 # Retrieve all bounding boxes for traffic lights within the level
 bounding_box_set = world.get_level_bbs(carla.CityObjectLabel.TrafficLight)

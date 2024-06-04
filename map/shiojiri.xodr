@@ -21,7 +21,7 @@
         </planView>
         <elevationProfile>
             <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
-        </elevationProfile>
+        </elevationProfile> 
         <lateralProfile>
             <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
             <shape s="0.0000000000000000e+00" t="-6.6687317753775170e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
@@ -44,12 +44,7 @@
                         <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
                         <userData>
                             <vectorLane sOffset="0.0000000000000000e+00" laneId="{423977cf-cb19-4fee-9cd6-c242bbbd7fe5}" travelDir="undirected"/>
-                        </userData>
-                    </lane>
-                    <lane id="-2" type="shoulder" level="false">
-                        <width sOffset="0.0000000000000000e+00" a="6.3499999999999979e-01" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
-                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
-                        <speed sOffset="0.0000000000000000e+00" max="4.0000000000000000e+01" unit="mph"/>
+                        </userData> ="4.0000000000000000e+01" unit="mph"/>
                         <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
                         <userData>
                             <vectorLane sOffset="0.0000000000000000e+00" laneId="{0000c263-5de0-4c83-8be2-9aa015b725df}" travelDir="undirected"/>

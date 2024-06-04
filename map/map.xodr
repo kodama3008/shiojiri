@@ -58,6 +58,8 @@
 </configuration>
 -->
 
+<!-- rightをleftへ変更済み -->
+
 <OpenDRIVE>
     <header revMajor="1" revMinor="4" name="" version="1.00" date="Wed Apr 24 14:41:33 2024" north="991.48" south="0.00" east="1370.70" west="0.00">
         <geoReference>

@@ -1,6 +1,5 @@
 import carla
 import random
-import time
 
 # Connect to the client and retrieve the world object
 client = carla.Client('localhost', 2000)
@@ -36,10 +35,6 @@ for vehicle in world.get_blueprint_library().filter('*vehicle*'):
 max_vehicles = 50
 max_vehicles = min([max_vehicles, len(spawn_points)])
 vehicles = []
-
-spawn_points = world.get_map().get_spawn_points()
-
-
 # Route 1
 spawn_point_1 =  spawn_points[549]
 # Create route 1 from the chosen spawn points
@@ -79,11 +74,6 @@ alt = False
 
 while True:
     world.tick()
-
-    # 経過時間チェック
-    elapsed_time = time.time() - start_time
-    if elapsed_time > run_duration:
-        break
 
     n_vehicles = len(world.get_actors().filter('*vehicle*'))
     blueprints = world.get_blueprint_library().filter('vehicle.*')
